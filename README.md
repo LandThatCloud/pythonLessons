@@ -1,4 +1,4 @@
-# pythonLessons
+# Python Lessons coupled with Machine Learning & Data Science 
 Data Science
 
 Topic: Data Models
