@@ -4,7 +4,7 @@ Data Science
 Topic: Data Models
 Course: Decision Trees
 Date:
-Professor:
+Professor: Dans Becker
 
 Pandas
 
