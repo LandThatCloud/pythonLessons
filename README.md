@@ -1,4 +1,4 @@
-# Python Lessons coupled with Machine Learning & Data Science 
+# Python Lessons coupled with Machine Learning & Data Science
 Data Science
 
 Topic: Data Models
@@ -13,7 +13,7 @@ Import pandas as pd
 * Data Frame
     * File_path, read_csv, describe
 
-Sckit-learn - Building a model
+Sckit-learn - Building a Model
 
 * Selecting Data for Modelling
     * Data_frame.columns
@@ -35,7 +35,6 @@ Sckit-learn - Building a model
             * X is the Data_Frame with featured columns
             * Y is the data_frame filtered with the prediction target
         * Model.predict(X)
-    
 Model Validation
 
 * Sklearn.tree import train_test_split
@@ -51,7 +50,7 @@ Overfitting and Underfitting
 
 * Overfitting
     * capturing spurious patterns that won't recur in the future, leading to less accurate predictions
-    * More total leaves — lesser MAEs — Not a reliable model as predictions are from a very small subset of data
+    * More total leaaves — lesser MAEs — Not a reliable model as predictions are from a very small subset of data
 * Underfitting
     * failing to capture relevant patterns, again leading to less accurate predictions.
     * Less total leaves — higher MAEs — Not reliable model as predications does not capture minute patterns leading to data which is not that useful
@@ -60,3 +59,11 @@ Overfitting and Underfitting
     * Calculate MAEs for a list of max_leaf_nodes and find the lowest MAE which will give you the best max leaf node config.
     * Model = DecisionTreeRegressor(max_leaf_nodes = max_leaf_nodes_no, random_state=0)
 
+Random Forests
+
+* Sklearn.ensemble : import RandomForestRegressor
+* Sklearn.metrics: import mean_absolute_error
+* Model  —> RandomForestRegressor(random_state=1)
+* Fit the model with train_X and train_y
+* Predict with this model
+* Calculate mean absolute error with Val_X and predictions.
